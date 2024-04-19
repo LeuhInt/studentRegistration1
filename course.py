@@ -1,5 +1,5 @@
-from StudentRegistrationSystem.lectureHall import LectureHall
-from StudentRegistrationSystem.professor import Professor
+from lectureHall import LectureHall
+from professor import Professor
 
 
 class Course:

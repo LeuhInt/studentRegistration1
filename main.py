@@ -1,9 +1,9 @@
-from StudentRegistrationSystem.degree import Degree
-from StudentRegistrationSystem.lectureHall import LectureHall
-from StudentRegistrationSystem.professor import Professor
-from StudentRegistrationSystem.student import Student
-from StudentRegistrationSystem.address import Address
-from StudentRegistrationSystem.course import Course
+from degree import Degree
+from lectureHall import LectureHall
+from professor import Professor
+from student import Student
+from address import Address
+from course import Course
 
 
 class Main:

@@ -1,7 +1,8 @@
-from StudentRegistrationSystem.degree import Degree
-from StudentRegistrationSystem.address import Address
-from StudentRegistrationSystem.course import Course
-from StudentRegistrationSystem.course import Professor
+from degree import Degree
+from address import Address
+from course import Course
+from course import Professor
+
 
 class Student:
     def __init__(self, idNumber: int, name: str, degree: Degree, address: Address, course: Course):
@@ -63,4 +64,3 @@ class Student:
                 f'Requisites: {self.__course.getRequisites()}\n'
                 f'Professor name: {self.__course.getProfessor().getName()}\n'
                 f'Lecture Hall: {self.__course.getLectureHall()}\n')
-

@@ -1,8 +1,8 @@
-from StudentRegistrationSystem.student import Student
-from StudentRegistrationSystem.notebook import degreeList, courseList, printFormat
-from StudentRegistrationSystem.address import Address
-from StudentRegistrationSystem.degree import Degree
-from StudentRegistrationSystem.course import Course
+from student import Student
+from notebook import degreeList, courseList, printFormat
+from address import Address
+from degree import Degree
+from course import Course
 
 
 class Menu:

@@ -1,4 +1,4 @@
-from StudentRegistrationSystem.address import Address
+from address import Address
 
 
 class Professor:
